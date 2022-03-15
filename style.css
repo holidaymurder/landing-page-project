@@ -1,0 +1,112 @@
+/* *{
+    border: 1px black solid;
+} */
+html{
+    font-family: 'Lato', sans-serif;
+    color: #313131;
+}
+body{
+    margin: 0;
+}
+main{
+    margin: 30em auto;
+    width: 70%;
+    font-size: 1.1em;
+
+}
+/* header section */
+header{
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    /*background-color: #F5F5F5;*/
+}
+#logo{
+    padding-left: 1em; 
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 40px;
+}
+
+.nav-link{
+
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 2em;
+    color: #313131;
+}
+/* email section */
+#contact{
+    text-align: center;
+}
+.button{
+    display: block;
+    background-color: #46237A;
+    color: #ffffff;
+    font-size: 1.1em;
+    width: 40%;
+    height: 2em;
+    margin: 0.3em auto;
+    font-weight: bold;
+}
+#email{
+    font-size: 1em;
+}
+
+#input{
+    width: 15%;
+}
+/* features section */
+#features{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 3em
+    }
+.feat{
+    margin-left: 10vw;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+.icon{
+    display: block;
+    margin: auto 1em;
+}
+.points{
+    display: block;
+}
+i{
+    font-size: 2.75em;
+}
+/* media section */
+#media{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+
+/* offers section */
+#offers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.package{
+    border: #313131 solid 1px;
+    text-align: center;
+    width: 25%;
+}
+.product-name{
+    background-color: #F5F5F5;
+    padding: 0.5em 0;
+    margin: 0;  
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
